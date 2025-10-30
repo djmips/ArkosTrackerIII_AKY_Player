@@ -108,7 +108,8 @@ hello_world_string:
 ; CODE SECTION
 ;***************************************************************************
 ; here the cartridge program starts off
-                    ldy      #Main_Subsong0               ; song to be played 
+                    ldy #Vaches_Subsong0
+;                    ldy      #Main_Subsong0               ; song to be played 
 ;                   ldy      #Hokus_Subsong0               ; rom 
  clr sinSpeed
  lda #1
@@ -131,18 +132,18 @@ main:
 ;;; jsr lineBySound
 
  jsr Reset0Ref
- jsr sinusBySoundA
+;; jsr sinusBySoundA
 ;; jsr Reset0Ref
 ;; jsr sinusBySoundB
 ;; jsr Reset0Ref
 ;; jsr sinusBySoundC
 
- jsr Reset0Ref
- jsr lineBySound2_A
- jsr Reset0Ref
- jsr lineBySound2_B
- jsr Reset0Ref
- jsr lineBySound2_C
+;; jsr Reset0Ref
+;; jsr lineBySound2_A
+;; jsr Reset0Ref
+;; jsr lineBySound2_B
+;; jsr Reset0Ref
+;; jsr lineBySound2_C
 
 
                     tst      PLY_error 
@@ -284,8 +285,15 @@ doneSound_2:
 ; DATA SECTION
 ;***************************************************************************
 
-                    include  "HarmlessGrenade_vectrex.asm"
-                    include  "HarmlessGrenade_vectrex_playerconfig.asm"
+                    include "bambi_playerconfig.asm"
+                    include "bambi.asm"
+
+ ;                   include  "harmlessGrenade_playerconfig.asm"
+ ;                   include  "harmlessGrenade.asm"
+
+
+ ;                   include  "HarmlessGrenade_vectrex.asm"
+ ;                   include  "HarmlessGrenade_vectrex_playerconfig.asm"
 ; or
 ;                    include  "HokusPokus_aky.asm"
 ;                    include  "HokusPokus_aky_playerconfig.asm"
