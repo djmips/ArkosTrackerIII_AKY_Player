@@ -108,8 +108,8 @@ PLY_CFG_SoftAndHard_Retrig  =  1                          ; not used
  ifdef  PLY_CFG_SoftToHard 
 PLY_AKY_USE_SoftAndHard_Agglomerated  =  1 
  endif  
- ifdef  PLY_CFG_SoftAndHard 
-                    PLY_AKY_USE_SoftAndHard_Agglomerated  = 1 
+ ifdef  PLY_CFG_SoftAndHard
+PLY_AKY_USE_SoftAndHard_Agglomerated  =  1
  endif  
  ifdef  PLY_CFG_HardToSoft 
 PLY_AKY_USE_SoftAndHard_Agglomerated  =  1 
