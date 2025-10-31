@@ -88,7 +88,7 @@ pobject_list_end    ds       0
 
 
 
-arkosRamStart ds 0
+arkosRamStart ds 32
 
 ;***************************************************************************
 ; HEADER SECTION
@@ -237,7 +237,7 @@ noNoiseC
                     sta      emitterData3+EANGLE_INC 
 
 
-
+3
 
 
 ; pointer to circle data - is a constant!

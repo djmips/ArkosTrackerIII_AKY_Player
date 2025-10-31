@@ -2,12 +2,12 @@
 <AllProjectProperties>
 	<ProjectProperties>
 		<Class>Project</Class>
-		<Name>ArkosTracker2</Name>
+		<Name>ArkosTracker3</Name>
 		<FileVersion>2</FileVersion>
-		<ProjectName>ArkosTracker2</ProjectName>
+		<ProjectName>ArkosTracker3</ProjectName>
 		<DirectoryName></DirectoryName>
 		<Path>projects</Path>
-		<MainFile>ArkosTracker2_AKY.asm</MainFile>
+		<MainFile>ArkosTracker3_AKY.asm</MainFile>
 		<Description></Description>
 		<Version>1.0</Version>
 		<Author>Malban</Author>
@@ -16,7 +16,7 @@
 		<createGameLoopCode>true</createGameLoopCode>
 		<NumberOfBanks>1</NumberOfBanks>
 		<BankMainFiless>
-			<BankMainFiles>ArkosTracker2_AKY.asm</BankMainFiles>
+			<BankMainFiles>ArkosTracker3_AKY.asm</BankMainFiles>
 		</BankMainFiless>
 		<Extras>0</Extras>
 		<ProjectPreScriptClass></ProjectPreScriptClass>
